@@ -135,7 +135,7 @@ primus.on('connection', function (spark) {
 Disconnects are announced using a `disconnection` event:
 
 ```js
-primus.on('disconnected', funciton (spark) {
+primus.on('disconnected', function (spark) {
   // the spark that disconnected
 });
 ```
